@@ -15,7 +15,7 @@ const konami_code = [
 
 let cursor = 0,
   animating = false,
-  intervalID: number | undefined,
+  intervalID: ReturnType<typeof setInterval> | undefined,
   scrollPosition: number;
 
 document.addEventListener('keydown', (e) => {
@@ -48,7 +48,9 @@ const startAnimation = () => {
 };
 
 export const stopAnimation = () => {
-  clearInterval(intervalID);
+  if (intervalID) {
+    clearInterval(intervalID);
+  }
   const konami_container = document.getElementById('konami_container');
 
   if (konami_container) {
