@@ -64,7 +64,7 @@ export const SectionWorks = ({ className }: Props) => {
         {/* SEE ALL button */}
         <a
           className="works__empty"
-          href="https://github.com/OscarFDiaz"
+          href="https://github.com/Jojan777"
           rel="noopener noreferrer"
           target="_blank"
           title={t('toGithub')}
@@ -114,7 +114,7 @@ export const SectionWorks = ({ className }: Props) => {
         {/* SEE ALL button */}
         <a
           className="works__empty"
-          href="https://www.behance.net/oscarofda"
+          href="https://github.com/Jojan777  "
           rel="noopener noreferrer"
           target="_blank"
           title={t('toBehance')}

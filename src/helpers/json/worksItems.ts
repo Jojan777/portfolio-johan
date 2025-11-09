@@ -1,3 +1,5 @@
+import store3JImage from '../../assets/3J Store.png';
+
 interface Props {
   id: number;
   name: string;
@@ -22,22 +24,22 @@ interface Props {
 export const worksItems: Props[] = [
   {
     id: 1,
-    name: 'Flynanz',
+    name: '3J Store',
     description: {
-      es: 'Aplicación movil, para el control de gastos y manejo de finanzas personales. 💸',
-      en: 'Mobile application for expense tracking and personal finance management. 💸',
+      es: 'Ecommerce enfocado en la venta de ropa, para damas y caballeros',
+      en: 'Ecommerce focused on the sale of clothes, for women and men',
     },
     img: {
-      src: 'https://camo.githubusercontent.com/80d27b366c1b176e9d563db049c8a5df70527ae9e085501c238e78e3d5c26e45/68747470733a2f2f692e696d6775722e636f6d2f49524e303576622e706e67',
-      alt: 'Flynanz image',
+      src: store3JImage,
+      alt: '3J Store image',
     },
-    tags: ['JS', 'CSS', 'HTML', 'Cordova'],
+    tags: ['JS', 'CSS', 'HTML'],
     anchor_live: {
-      href: 'https://play.google.com/store/apps/details?id=com.oscar.diaz',
-      title: 'Link to Playstore',
+      href: 'https://johan-web-developer.github.io/3J-Store/',
+      title: 'Link to Website',
     },
     anchor_github: {
-      href: 'https://github.com/OscarFDiaz/Flynanz_App',
+      href: 'https://github.com/Johan-web-developer/3J-Store',
       title: 'Link to Github repository',
     },
   },
