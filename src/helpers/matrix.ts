@@ -38,16 +38,16 @@ export const matrix = () => {
     ctx!.fillStyle = 'rgba(40, 44, 41, 0.09)';
     ctx!.fillRect(0, 0, canvas.width, canvas.height);
 
-    ctx!.fillStyle = '#C778DD';
+    ctx!.fillStyle = '#d87070';
     ctx!.font = fontSize + 'px Poppins';
   } catch (error) {
     void Swal.fire({
       background: '#282c33',
       color: '#ffffff',
-      confirmButtonColor: '#c778dd',
+      confirmButtonColor: '#d87070',
       footer: 'If you are in incognito mode, that may be the problem.',
       icon: 'error',
-      iconColor: '#c778dd',
+      iconColor: '#d87070',
       text: 'You found the easter egg 🥚 but I can not show you the result.',
       title: 'Oops...',
     });

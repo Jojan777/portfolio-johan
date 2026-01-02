@@ -1,6 +1,8 @@
 import {
   Bootstrap,
   Css,
+  Cursor,
+  Express,
   Figma,
   Git,
   Html,
@@ -56,7 +58,7 @@ export const stackItems: Props[] = [
       en: 'Frameworks & libraries',
       es: 'Frameworks y librerías',
     },
-    icons: [<React className="icons__svg" />],
+    icons: [<React className="icons__svg" />, <Express className="icons__svg" />],
   },
   {
     id: 5,
@@ -66,7 +68,7 @@ export const stackItems: Props[] = [
     },
     icons: [
       <Git className="icons__svg" />,
-      <VisualCode className="icons__svg icons__svg--last" />,
+      <Cursor className="icons__svg icons__svg--last" />,
     ],
   },
 ];
